@@ -1,0 +1,37 @@
+.song_container {
+	width: 800px;
+	height: 50px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 2px;
+	margin: 5px 0;
+}
+
+.song_img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+
+.song_info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.song_name,
+.song_artist {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.song_artist {
+	font-weight: normal;
+}
+
+.audio {
+	margin-left: auto;
+}
